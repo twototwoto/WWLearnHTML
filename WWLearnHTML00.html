@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>ITCoderW</title>
+	</head>
+	<body>
+<!-- 		<h1>我的第一个标题</h1>
+		<h2>h2标题</h2>
+		<h3>h3标题</h3>
+		<h4>h4标题</h4>
+
+		<p>我的第一个段落</p>
+		<hr>
+
+		<p>段落2</p>
+		<hr>
+		<p>段落3</p>
+		<p>段落4 <br> 换行 <br> 换行 <br> 换行</p>
+
+		<a href="http://www.runoob.com"> 菜鸟教程链接</a>
+		<br/>
+		<img src="http://a.hiphotos.baidu.com/zhidao/pic/item/b8014a90f603738df9308a0db01bb051f819eca3.jpg" width = "677" height = "848"/>
+		<br/>
+		<img src="images/log.png" width = "258" height = "39"> -->
+
+		
+		<b>HTML 文本格式化 <br>bold 粗体 </b>
+		<!-- bold 加粗 -->
+		<br/>
+		<strong>strong文本加粗</strong>
+		<br/>
+		<i>斜体italic</i>
+		<!-- italic 斜体 -->
+		<br/>
+		<big>big文本放大</big>
+		<br>
+		<small>small 文本缩小</small>
+		<br>
+		文本包含下标 <sub>sub下标</sub>
+		<br>
+		文本包含上标 <sup>sup上标</sup>
+
+		<pre> pre 预格式化文本  空格
+换行
+		使用了pre后就不需要使用br来换行了
+pre其间的文字 有换行就输出换行有空格输出空格
+
+		</pre>
+
+		<code>code 计算机输出</code>
+		<br>
+		<kbd>kbd键盘输出</kbd>
+		<br
+		<tt>tt打字机文本</tt>
+		<br
+		<samp>samp计算机代码样本</samp>
+		<br>
+		<var>计算机变量</var>
+
+		<p>
+			<b>b bold 粗体 注释：</b>
+			这些标签用于显示计算机/编程代码
+			<dfn>def 定义项目不明用意</dfn>
+			<em>强调文本</em>
+		</p>
+		<br />
+
+		<address> address 地址 ：
+			Written by <a href="mailto:webmaster@example.com"> Jon Doe </a>.<br>
+			Visit us at:<br>
+			example.com<br>
+			Box 564,Disneyland<br>
+			USA
+		</address>
+
+		<abbr title="etcetera  解释：abbr abbreviate 缩写 当鼠标箭头悬浮在缩写内容的时候提示出来全写 title的内容为全写部分">etc.</abbr>
+		 <!-- abbr abbreviate 缩写  -->
+		 <acronym  title = "World Wide Web 解释：acronym首字母缩略词 当鼠标箭头悬浮在缩写内容的时候提示出来全写 title的内容为全写部分" >WWW</acronym>
+
+		 <p>在某些浏览器中 当把鼠标移至缩略词的时候 title用于展示表达的完整版本</p>
+		 <p>仅对于IE5 中的 acronym元素有效</p>
+		 <p>对于Netscape 6.2中的abbr 和 acronym元素都有效</p>
+
+
+		 <br>
+		 <p><b> 文字方向:</b> 这段文字从左到右展示 下边rtl right to left</p>
+		 <p> <bdo dir = "rtl"> 这段文字 从右到左 bdo 控制 显示 rtl right to left</bdo></p>
+
+		 <br/>
+
+		 <p><b>块引用 加双引号 引用别人的话的样式</b></p>
+		 <p>
+		 	WWF's goal is to:
+		 	<q>q quote 块引用 Build a future where people live in harmony with nature</q>
+		 	<blockquote> 
+		 		block quote 定义长的引用 长的快引用目前不明用意
+			引用换行
+			换行
+		</blockquote>
+		 </p>
+
+		 <blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. 
+</blockquote>
+
+		<p>
+			<cite>The Scream</cite>
+			 cite 引用 by Edward Munch. Painted in 1893.
+		</p>
+
+
+		 <p>
+		 	<b>删除字  插入字效果 </b>
+		 	<p>my favorite color is <del>del delete blue</del>
+		 		<ins>ins insert red</ins>
+		 	</p>
+
+		 </p>
+
+
+
+
+
+
+
+
+	</body>
+	</html>
+	<!--
+	 注释方式：使用utf-8 是为了中文可以正常显示 有的浏览器默认编码为GBK 中文会乱码 
+	 后缀为 .html  或者 .htm
+	 <!DOCTYPE html>	声明为HTM5文档
+	<html>	是HTML页面的根元素
+	<head>	包含了文档的元(meta)数据
+		<meta charset = "utf-8">
+		<title>ITCoderW</title>	描述了文档的标题 显示在标签页上的内容
+	</head>
+	<body>
+		<h1>我的第一个标题</h1>	定义一个大标题
+		<p>我的第一个段落</p>	定义一个段落 paragraph
+	</body>
+	</html>
+
+	HTML 全写为 Hyper Text Markup Language
+	HTML不是一种编程语言 而是一种标记语言
+	HTML 标签通常是成对存在的
+	<标签> 内容 </标签>
+
+	<body>部分的内容 才会在浏览器中显示
+
+		HTML 镖旗啊对大小写不敏感 推荐使用小写标签
+
+
+		HTML属性：
+		class 为html 元素定义一个或者多个类名(类名 从样式文件引入)
+		id  定义元素的唯一id
+		style  规定元素的行内样式 inline style
+		title 描述元素的额外信息 (作为工具调试用)
+
+		HTML标题：
+		h1 ~ h6 标题由大到小  
+		请确保HTML 标题 标签 只用于标题 不要仅仅为了生成粗体或者大号的文本而使用标题
+		HTM水平线 <hr> 看起来水平线这个标签不用关闭 或者说她不是一个成对的标签
+
+
+	<b> 粗体 </b> bold
+
+	<i>斜体</i> italic
+
+	 -->
